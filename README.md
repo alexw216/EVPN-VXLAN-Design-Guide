@@ -355,7 +355,7 @@ v
 
 ## A full ASCII EVPN/VXLAN fabric topology.
 It shows:
-
+,,,
 Dual‑spine, multi‑leaf fabric
 
 L2VNI + L3VNI
@@ -491,3 +491,4 @@ Multihoming:
                                           |
                                           v
                                  WAN / DCI / MPLS Core
+,,,
