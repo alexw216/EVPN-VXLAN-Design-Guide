@@ -174,7 +174,7 @@ A comprehensive reference covering VXLAN use cases, EVPN route‑type mapping, d
 VXLAN enables scalable, flexible, and multi‑tenant network fabrics by extending Layer‑2 networks over a routed Layer‑3 underlay.
 
 ### Datacenter Virtualization & Mobility
-
+```
 +---------------- Spine Layer ----------------+
 |                 EVPN/BGP                    |
 +-------+-------+                           +--------+-------+
@@ -185,15 +185,15 @@ VXLAN enables scalable, flexible, and multi‑tenant network fabrics by extendin
 +--+--+                                        +--+--+
 | VM |   <---- L2VNI 1001 (stretched) ---->     | VM |
 +-----+                                        +-----+
-
+```
 
 ### Layer‑2 Extension Across Layer‑3 Underlays
-
+```
 +-----------+       L3 Underlay       +-----------+
 |  Site A   |--------------------------|  Site B   |
 | L2VNI 10  |<------ VXLAN/EVPN ------>| L2VNI 10  |
 +-----------+                          +-----------+
-
+```
 
 ### Multi‑Tenant Segmentation
 
@@ -212,19 +212,19 @@ IMET Route ---> RT-3 ---> Flood List
 
 
 ### Hybrid Cloud & Multi‑Site
-
+```
 On-Prem DC ---------------- Cloud VPC
 \                         /
 \--- EVPN/VXLAN Tunnel--/
 
-
+```
 ### Security & Zero‑Trust
-
+```
 +---------+      +-----------+      +---------+
 | TenantA |----->| Firewall  |----->| TenantB |
 +---------+      +-----------+      +---------+
 L2/L3 segmentation via VNIs + VRFs
-
+```
 
 ---
 
@@ -248,7 +248,7 @@ L2/L3 segmentation via VNIs + VRFs
 
 ## 3. EVPN Route‑Type Decision Tree (ASCII)
 
-
+```
 +----------------------+
 |  Start: VXLAN Fabric |
 +----------+-----------+
@@ -321,7 +321,7 @@ v
 | End: Route Types Determined               |
 +-------------------------------------------+
 
-
+```
 ---
 
 ## 4. EVPN Troubleshooting Matrix
