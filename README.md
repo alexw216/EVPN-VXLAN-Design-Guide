@@ -196,12 +196,12 @@ VXLAN enables scalable, flexible, and multi‑tenant network fabrics by extendin
 ```
 
 ### Multi‑Tenant Segmentation
-
+```
 Tenant A: VNI 10010  --> VRF-A
 Tenant B: VNI 10020  --> VRF-B
 Tenant C: VNI 10030  --> VRF-C
 
-
+```
 ### EVPN Control‑Plane Enhancements
 
 MAC/IP Learning:
