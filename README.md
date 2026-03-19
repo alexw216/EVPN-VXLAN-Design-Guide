@@ -203,13 +203,13 @@ Tenant C: VNI 10030  --> VRF-C
 
 ```
 ### EVPN Control‑Plane Enhancements
-
+```
 MAC/IP Learning:
 Host MAC/IP ---> RT-2 ---> All VTEPs
 
 BUM Replication:
 IMET Route ---> RT-3 ---> Flood List
-
+```
 
 ### Hybrid Cloud & Multi‑Site
 ```
